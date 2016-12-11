@@ -12,7 +12,7 @@ q1:
 q2:
   id: 2
   qcontent: Question2
-  qanswer: 1
+  qanswer: 2
   ds_name: Gene expression study in Positron Emission Tomography (PET) positive abdominal aortic aneurysms
   ds_accession: E-MTAB-3175
   closed: false  

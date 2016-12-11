@@ -12,7 +12,7 @@ module FullquestionsHelper
     uri = URI(url)
     response = Net::HTTP.get(uri)
     data_hash=JSON.parse(response)
-    debugger
+    #debugger
     if(data_hash["experiments"]["total"] == 0)
         return nil
     end

@@ -57,7 +57,7 @@ describe Fullquestion do
         end
         it "#get_answer should return corresponding answer string" do
             expect(Fullquestion.find_by_id(1).get_answer).to eq('1')            
-            expect(Fullquestion.find_by_id(2).get_answer).to eq('1')
+            expect(Fullquestion.find_by_id(2).get_answer).to eq('2')
             #User operate submissions
             User.find_by_id(1).fullsubmissions.each do |submit|
                if(submit.fullquestion_id == 3) 

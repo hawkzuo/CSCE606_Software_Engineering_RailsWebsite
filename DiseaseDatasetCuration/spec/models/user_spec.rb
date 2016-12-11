@@ -116,8 +116,8 @@ describe User do
             expect(result["user_email"]).to eq("test1@gmail.com")
             expect(result["user_name"]).to eq("u1")
             expect(result["submission"]).to eq(2)
-            expect(result["correct"]).to eq(2)
-            expect(result["accuracy"]).to eq(1.0)
+            expect(result["correct"]).to eq(1)
+            expect(result["accuracy"]).to eq(0.5)
         end
        
     end

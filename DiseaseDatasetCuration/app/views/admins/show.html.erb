@@ -72,7 +72,7 @@
   <div class = "col-sm-4">
     <section class="group_manage">
       <h3 style="text-align:left;">Result Format Config</h3>
-      <%= link_to "Configuration", '/config', class: "btn btn-primary" %>
+      <%= link_to "Configuration(working on it)", '/config', class: "btn btn-primary", :disabled => true %>
     </section>  
     <hr>
   </div>  
@@ -80,7 +80,7 @@
 
   <div class = "col-sm-2">
     <div class = row>
-      <h3 style="text-align:left;">Search By Email </h3>
+      <h3 style="text-align:left;">Search By...(working on it) </h3>
       <%= form_tag admins_show_path(), :method => :post, :id => "query_form" do%>
       <%= search_field_tag 'search', nil, :class => 'special_input', :placeholder => 'Query...', :id => 'query' %>
       <% end %>
